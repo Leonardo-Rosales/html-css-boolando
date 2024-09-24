@@ -28,7 +28,7 @@ html{
 
 /* layout */
 .container{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -40,6 +40,27 @@ html{
 
 .col-33{
     width: calc(100% / 3);
+}
+
+.col-100{
+    width: 100%;
+}
+
+/* HEADER */
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: orangered;
+    margin-bottom: 40px;
+    padding: 10px;
+    color: white;     
+}
+
+.main-menu{
+    display: flex;
+    gap: 8px;
 }
 
 /* MAIN */
