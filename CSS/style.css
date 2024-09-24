@@ -1,0 +1,43 @@
+/* RESET RULES */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol{
+    list-style: none;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* layout */
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc(100% / 3);
+}
+
+/* MAIN */
+
+.col-33 img{
+    padding-right: 15px;
+}
